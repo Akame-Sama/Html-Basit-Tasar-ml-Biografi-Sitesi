@@ -1,0 +1,402 @@
+:root{
+  /** Yazi renkleri **/
+  --baslikrenk : #5B64EF;
+  --aciklamarenk : #AEAEAE;
+  --aciktemaciklama : #a5a5a5;
+  --aciktemabaslik : black;
+  /**arka planlar**/
+  --arkaplan : #181818;
+  --menurenk : #23272a;
+  /**button**/
+  --butonborder : #ff5349;
+  /**footer**/
+  --footerarkaplan : #131313;
+  --sosyal: #181818;
+  /**Footer sosyal medialar**/
+  --facebook: #3b5998;
+  --twitter: #1faee9;
+  --github: #171515;
+  --env: #79ff65;
+  --up: #3b3c42;
+  --linkedin: #2867B2;
+  --youtube: #c4302b;
+  --instagram1: #405DE6;
+  --instagram2: #5851DB;
+  --instagram3:#833AB4;
+  --instagram4:#C13584;
+  --instagram5:#E1306C;
+  --instagram6: #FD1D1D;
+  --instagram7:#F56040;
+  --instagram8: #F77737;
+  --instagram9:#FCAF45;
+  --instagram10:#FFDC80;
+  /**Footer sosyal medialar RGB**/
+  --twitterrgb:68, 204, 246;
+  --facebookrgb:59, 89, 152;
+  --linkedinrgb: 0, 119, 181;
+  --githubrgb: 54, 70, 93;
+  --youtubergb: 230, 33, 23;
+  --instagramrgb: 81, 91, 212;
+  --uprgb: 26, 26, 29;
+}
+.footer-distributed {
+  background-color: var(--footerarkaplan);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/**============================[Footer #2]============================**/
+/**                              Linkler                              **/
+/**============================[---------]============================**/
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: var(--sosyal);
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+  margin-bottom: 6px;
+}
+svg {
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+section {
+  width: 100%;
+  display: inline-block;
+  background: #181818;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+/**============================[Footer #3]============================**/
+/**                          Sosyal medyalar                          **/
+/**============================[---------]============================**/
+#facebook:hover{
+background-color:var(--facebook);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--facebookrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--facebookrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--facebookrgb));
+}
+#twitter:hover{
+  background-color:var(--twitter);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--twitterrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--twitterrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--twitterrgb));
+}
+#github:hover{
+  background-color:var(--github);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--githubrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--githubrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--githubrgb));
+}
+#env:hover{
+  background-color:var(--env);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--githubrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--githubrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--githubrgb));
+}
+#linkedin:hover{
+  background-color:var(--linkedin);
+   -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--linkedinrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--linkedinrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--linkedinrgb));
+}
+
+#youtube:hover{
+  background-color:var(--youtube);
+ -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--youtubergb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--youtubergb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--youtubergb));
+}
+#instagram:hover{
+ background-color: var(--instagram4);
+  webkit-box-shadow: 0px 0px 10px 0px rgba(var(--instagramrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--instagramrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--instagramrgb));
+}
+#up:hover{
+  border-radius: 15%;
+ background-color: var(--up);
+ color: #efa2e5;
+  webkit-box-shadow: 0px 0px 10px 0px rgba(var(--uprgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--uprgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--uprgb));
+}
+/**============================[Footer #4]============================**/
+/**                             Animasyon                             **/
+/**============================[---------]============================**/
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+/**============================[Footer #5]============================**/
+/**                               Media                               **/
+/**============================[---------]============================**/
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #303136;
+  background-size: 1480px;
+}
+.gif{
+background: url(gif.gif) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+text-align: center;
+width: 100%;
+height: 360px;
+margin-top:auto;
+margin-left:auto;
+margin-right:auto;
+color: #ffdbfe;
+font-family: 'Anton', sans-serif;
+}
+.gif h1{
+  font-size: 80px;
+}
+.bilgi{
+  border-radius: 10%;
+  width: 550px;
+  background: #303136;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: #FFDBFE;
+  font-family: sans-serif;
+}
+.bilgi img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.bilgi img:hover{
+  transform: scale(0.8);
+}
+.bilgi h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.bilgi p{
+  text-align: justify;
+
+}
+.acıkama{
+  border-radius: 10%;
+  width: 550px;
+  height:
+  background: #303136;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: #FFDBFE;
+  font-family: sans-serif;
+}
+.acıkama img {
+  border-radius: 5%;
+  width: 288px;
+  height: 230px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.acıkama img:hover{
+  transform: scale(0.8);
+}
+.acıkama h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.acıkama p{
+  text-align: justify;
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.acıkama{
+  border-radius: 10%;
+  float: left;
+  margin-top:200px;
+  margin-left:165px;
+  margin-right:auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  width:400px;
+  height:50%;
+  background-color: #303136;
+  font-family: arial;
+}
+.acıkama h3{
+  text-align: left;
+}
+.acıkama a{
+  text-align: left;
+  background-color:#303136;
+}
+.acıkama a:hover{
+  text-align: left;
+  background-color:#303136;
+}
+.duyuru{
+  border-radius: 10%;
+  width: 550px;
+  background: #303136;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: #FFDBFE;
+  font-family: sans-serif;
+}
+
+.duyuru h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.duyuru p{
+  text-align: justify;
+
+}
+.duyuru{
+  border-radius: 10%;
+  width: 550px;
+  height:
+  background: #303136;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: #FFDBFE;
+  font-family: sans-serif;
+}
+.duyuru img {
+  border-radius: 5%;
+  width: 299px;
+  height: 168px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.duyuru img:hover{
+  transform: scale(0.8);
+}
+.duyuru h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.duyuru p{
+  text-align: justify;
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.duyuru{
+  border-radius:15px;
+  margin: auto;
+  padding: 10px;
+  width:400px;
+  height: auto;
+  margin-top: 5%;
+  background-color: 303136;
+  font-family: arial;
+}
+.yukarı{
+  float: auto;
+  margin-top: 6px;
+  max-width: 180px;
+  color: #9B658B;
+  border-radius: 60%;
+padding: auto;
+text-align: center;
+margin: auto;
+color: #FFDBFE;
+font-family: sans-serif;
+}
+.yukarı a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #27272b;
+  border-radius: 10%;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+  margin-bottom: 6px;
+}
